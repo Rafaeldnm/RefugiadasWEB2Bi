@@ -1,0 +1,1 @@
+Criei um popup em javascript, assim que a pessoa clica no botão de "Quero ser Anfitriã" ou "Quero ser ajudada", abre um popup na tela solicitando que a pessoa leia novamente os requisitos antes de seguir em frente.

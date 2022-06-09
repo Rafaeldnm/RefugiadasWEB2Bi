@@ -1,0 +1,95 @@
+* { margin: 0pt; padding: 0pt; }
+
+blockquote, q { quotes: "" ""; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+
+caption, th, td { font-weight: normal; text-align: left; }
+
+em { font-style: italic; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0pt none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0pt;
+	outline-color: invert;
+	outline-style: none;
+	outline-width: 0pt;
+	padding: 0pt;
+	vertical-align: baseline;
+}
+
+strong { font-weight: bold; }
+
+table { border-collapse: separate; border-spacing: 0pt; }
+
+form { margin: 0; padding: 0; }
+
+form label { cursor: pointer; }
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+html {
+	margin-bottom: 1px;
+	height: 100%!important;
+	height: auto;
+}
+
+
+.BUTTON_BHQ {
+		background: #6D6D6D;
+		background-image: -webkit-linear-gradient(top, #6D6D6D, #1F1F1F);
+		background-image: -moz-linear-gradient(top, #6D6D6D, #1F1F1F);
+		background-image: -ms-linear-gradient(top, #6D6D6D, #1F1F1F);
+		background-image: -o-linear-gradient(top, #6D6D6D, #1F1F1F);
+		background-image: -webkit-gradient(to bottom, #6D6D6D, #1F1F1F);
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		color: #FFFFFF;
+		font-family: Georgia;
+		font-size: 19px;
+		font-weight: 100;
+		padding: 7px;
+		-webkit-box-shadow: 0 7px 20px 0 #000000;
+		-moz-box-shadow: 0 7px 20px 0 #000000;
+		box-shadow: 0 7px 20px 0 #000000;
+		text-shadow: 22px 3px 13px #000000;
+		border: solid #000000 1px;
+		text-decoration: none;
+		display: inline-block;
+		cursor: pointer;
+		text-align: center;
+	 }
+	 
+	 .BUTTON_BHQ:hover {
+		border: solid #337FED 1px;
+		background: #1E62D0;
+		background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+		background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+		background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+		background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+		background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		text-decoration: none;
+	 }
